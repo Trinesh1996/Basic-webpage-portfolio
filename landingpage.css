@@ -1,0 +1,21 @@
+body{
+  text-align: center;
+}
+
+header{
+  font-size: 30px;
+}
+
+
+.button{
+  margin: 10%;
+  padding-bottom: 1em;
+  font-size: 30px;
+}
+
+
+#background{
+  background-image: url("me.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}

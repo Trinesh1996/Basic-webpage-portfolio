@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('thumb.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background: #000;
+    color: #ddd4d4;
+    line-height: 2;
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+p{
+  margin: 0 20px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 10%;
+
+}
+
+/* Typography
+************/
+
+
+
+
+
+
+/* introduction
+************/
+.introduction img{
+  height: 20em;
+  -webkit-filter: grayscale(0%);
+  border-radius: 50%;
+  border-color: #ddd;
+  border-style: outset;
+}
+
+.introduction header{
+  height:3em;
+  padding-bottom: 1em;
+  font-size: 3em;
+
+}
+
+
+
+.introduction h1{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: inherit;
+    line-height: 4;
+    margin-bottom: -1rem;
+    margin-top: -1.5rem;
+  }
+
+.introduction h2{
+  font-weight: 600;
+  font-size: 1.5rem;
+
+}
+
+
+.florence h1{
+  line-height: 2em;
+  font-size: 2em;
+}
+.florence h2{
+  line-height: 2em;
+  font-size: 2rem;
+}
+
+.florenceCapital{
+  padding-top: 1em;
+  border-width: 2px;
+  color: #ddd;
+  background-attachment:;
+  background-size: cover;
+  font-size: 2em;
+}
+
+.florenceCapital h3{
+  font-size: 45px;
+  line-height: 5px
+}
+
+.florenceCapital h4{
+  letter-spacing: 10px;
+}
+
+
+.list img{
+
+  max-width: 30%;
+  float: right;
+  -webkit-filter: grayscale(0%); /Gray scale
+  filter: grayscale(40%);
+  margin: 1em;
+  margin-right: 2em;
+  top: 50%;
+}
+
+
+
+.florenceList{
+  background-color: #232323;
+  font-weight: bolder;
+  padding: 3em;
+  border-style: double;
+  border-color: #232323;
+  color: #ddd;
+  width: 100vw;
+
+}
+
+.florenceList ul{
+  margin-top: 0em;
+  transform:
+  left: 0;
+  right: 0;
+}
+
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse;
+  width: 100%;
+  padding: 1em;
+  font-size: 15px;
+}
+
+tr:hover {color: #4CAF50;}
+
+td, th {
+  border: 2px solid #696969;
+  text-align: center;
+  padding: 8px;
+  -webkit-filter: grayscale(0%);
+}
+
+
+
+.monuments p{
+  text-align: justify;
+    }
+.monuments img{
+    margin:1%;
+    float: left;
+    width:60%;
+    -webkit-filter: grayscale(0%);
+    height: 15em;;
+  }
+
+
+@media only screen and (max-width: 375px){
+  .history{
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .history{
+    width:100%;
+
+  }
+  .monuments{
+    margin:1%;
+    float: left;
+    width:30%;
+  }
+  .monuments img{
+    padding: 25px;
+    max-width: 100%;
+  }
+  .monuments p
+  {
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 750px) {
+ body{
+width: 100%;
+ }
